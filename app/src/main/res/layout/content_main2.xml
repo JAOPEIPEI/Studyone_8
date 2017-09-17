@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a2lab.studyone_8.Main2Activity"
+    tools:showIn="@layout/app_bar_main2"
+    >
+
+    <FrameLayout
+        android:id="@+id/content_frame2"
+        android:layout_width="1264dp"
+        android:layout_height="647dp"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="請點選右上角 開始閱讀測驗"
+            android:textSize="60sp" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

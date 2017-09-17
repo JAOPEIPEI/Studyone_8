@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_read1"
+            android:title="read1"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <item
+            android:id="@+id/nav_video1"
+            android:title="video1"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <item
+            android:id="@+id/nav_exam1"
+            android:title="exam1"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+    </group>
+
+
+
+</menu>
